@@ -184,7 +184,7 @@ a.travelplans-btn:hover {
     vertical-align: -7px;
 }
 .boarding-text p.__pfs,
-.boarding-text p {
+.boarding-text_spc p {
     font-size: 16px!important;
     line-height: 27px!important;
     color: #333 !important;
@@ -743,7 +743,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     overflow: hidden;
     transition: all 0.4s ease;
     color: #090f23;
-    font-size: .9em;
+    font-size: 1.1em;
 }
 .collapsible.open {
     overflow: visible;
