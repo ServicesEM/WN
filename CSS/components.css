@@ -1,0 +1,746 @@
+/*Looking for more low fare flights*/
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px; width: 1px;
+    overflow: hidden; white-space: nowrap;
+}
+.lowfare-banner {
+    background: url("https://assets.airtrfx.com/media-em/wn/6858b01e8ca48_scooter-1532-384.jpg") top/cover no-repeat;
+    position: relative;
+    color: #1a1a1a;
+    padding: 2rem;
+    display: flex !important;
+    align-items: center;
+}
+.lowfare-content {
+    max-width: 50%;
+    z-index: 1;
+}
+.lowfare-title {
+    font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem) !important;
+    margin-block: 0 0.75rem !important;
+    color: #343a40 !important;
+}
+p.lowfare-text {
+    font-size: 1.15rem !important;
+    color: #111b40 !important;
+    font-family: 'Southwest Sans' !important;
+}
+.lowfare-link {
+    color: #2f4cb2 !important;
+    text-decoration: underline !important;
+    font-weight: 600 !important;
+    font-size: 1.15rem !important;
+    font-family: 'Southwest Sans' !important;
+}
+.lowfare-link:focus-visible {
+    outline: 3px solid #0456c2;
+    outline-offset: 2px;
+}
+.lowfare-btn {
+    display: inline-block;
+    background: #ffc72c;
+    color: #000 !important;
+    width: 65%;
+    font-weight: 700 !important;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.lowfare-btn:hover {
+    background: #e0ac00;
+}
+.lowfare-btn:focus-visible {
+    outline: 3px solid #1a1a1a;
+    outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    .lowfare-content {
+        max-width: 100%;
+    }
+    .lowfare-banner {
+        padding: 1.5rem 1rem;
+        background-position: right center;
+        background-color: #304cb2;
+        background-image: none;
+    }
+    .lowfare-title {
+        font-size: 1.75rem !important;
+        color: #FFBF27 !important;
+    }
+    p.__pfs.lowfare-text {
+    color: white !important;
+    }
+    a.lowfare-link {
+        color: white !important;
+    }
+    .lowfare-btn {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }   
+}
+/*Got flexible travel plans*/
+.travelplans-banner {
+    background: url("https://assets.airtrfx.com/media-em/wn/6858b01e8ca48_scooter-1532-384.jpg") top/cover no-repeat;
+    position: relative;
+    color: #1a1a1a;
+    padding: 2rem;
+    display: flex !important;
+    align-items: center;
+}
+.travelplans-content {
+    max-width: 50%;
+    z-index: 1;
+}
+.travelplans-title {
+    font-size: clamp(1.5rem, 1.2rem + 1vw, 1.5rem) !important;
+    margin-block: 0 0.75rem !important;
+    color: #343a40 !important;
+}
+p.travelplans-text {
+    font-size: 1.15rem !important;
+    color: #111b40 !important;
+    font-family: 'Southwest Sans' !important;
+}
+a.travelplans-btn {
+    border: 1px solid #304cb2;
+    padding: .375rem 1.5rem;
+    color: #304cb2 !important;
+    text-decoration: none !important;
+    display: inline-block;
+    font-weight: 600 !important;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem !important;
+    font-family: 'Southwest Sans' !important;
+}
+a.travelplans-btn:hover {
+    background: #304cb2;
+    color: #fff !important;
+}
+.travelplans-btn:focus-visible {
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5);
+}
+@media (max-width: 768px) {
+    .travelplans-content {
+        max-width: 100%;
+    }
+    .travelplans-banner {
+        padding: 1.5rem 1rem;
+        background-position: 75% 50%!important;
+    }
+    .travelplans-banner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(255, 255, 255, 0.6) 50%;
+        pointer-events: none;
+    }
+    .travelplans-title {
+        font-size: 1.75rem !important;
+    }
+    .lowfare-btn {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }   
+}
+/*Travel tips for your next Southwest flight*/
+.boarding-tip {
+    display: flex !important;
+    align-items: center;
+    gap: 1.5rem;
+    background: #f4f4f6;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+.boarding-image img {
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 180px;
+}
+.boarding-text,
+.boarding-text_spc {
+    flex: 1;
+}
+.boarding-title {
+    font-size: 1.3rem !important;
+    color: #1a2c80 !important;
+}
+.boarding-title::before {
+    content: '';
+    display: inline-block;
+    background-image: url(https://www.southwest.com/swa-resources/images/responsive/rapid-rewards/icon-checkmark-sec-blue.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    vertical-align: -7px;
+}
+.boarding-text p.__pfs {
+    font-size: 16px!important;
+    line-height: 27px!important;
+    color: #333 !important;
+    max-width: 800px;
+    font-family: 'Southwest Sans'!important;
+}
+.boarding-list {
+    padding-left: 1rem !important;
+    list-style: none !important;
+}
+.boarding-list li {
+    color: #333 !important;
+    font-family: 'Southwest Sans' !important;
+    font-size: 16px!important;
+}
+.boarding-text a {
+    color: #2f4cb2 !important;
+    text-decoration: underline !important;
+    font-family: 'Southwest Sans'!important;
+    font-size: 16px!important;
+}
+.boarding-text a:focus-visible {
+    outline: 3px solid #0047ba;
+    outline-offset: 2px;
+}
+section.boarding-tip.special_bg {
+    background: #cce1fa;
+}
+section.boarding-tip.special_bg h3.boarding-title::before {
+    display: none;
+}
+section.boarding-tip.special_bg .white_btns p a {
+    background: white;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: .5rem 1.5rem;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    font-family: 'Southwest Sans' !important;
+    border: 1px solid #e6e7e8;
+}
+section.boarding-tip.special_bg .white_btns p a:hover,
+section.boarding-tip.special_bg .white_btns p a:focus {
+    text-decoration: none !important;
+    color: #111b40 !important;
+    border-color: #111b40 !important;
+}
+section.boarding-tip.special_bg .white_btns p a:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);   
+}
+@media (min-width: 768px) {
+    .boarding-text,
+    .boarding-text_spc {
+        padding-left: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .boarding-tip {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*Plan your trip sections*/
+.trip__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none !important;
+    align-items: stretch;
+}
+.trip__heading {
+    margin-bottom: 1.5rem !important;
+}
+.trip__item {
+    flex: 1 1 18rem;
+    max-width: 22rem;
+    padding: 0 1rem 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.trip__item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #d9d9e0;
+}
+.trip__img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+.trip__title {
+    font-size: 1.125rem;
+    color: #1a1a94;
+    margin: 0 0 0.5rem;
+    font-weight: 700;
+}
+.trip__text {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 90%;
+    text-align: center;
+    color: #111b40 !important;
+    font-family: 'Southwest Sans' !important;
+    font-size: 1.2em!important;
+}
+.trip__link {
+    color: #0036ff !important;
+    text-decoration: underline !important;
+    font-family: 'Southwest Sans' !important;
+    font-size: 1rem !important;
+}
+.trip__link:hover {
+    color: #304cb2 !important;
+}
+.trip__link:focus-visible {
+    outline: 3px solid #0047ba;
+    outline-offset: 2px;
+}
+@media (max-width: 768px) {
+    .trip__grid {
+        padding: 0!important
+    }
+    .trip__item:not(:last-child) {
+        border-bottom: 1px solid #d9d9e0;
+    }
+    li.trip__item {
+        max-width: 95%!important;
+    }
+}
+/*Join Rapid Rewards*/
+.rewards__features * {
+    font-family: 'Southwest Sans' !important;
+    color: #111b40 !important;
+}
+.rewards__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.rewards__title {
+    font-size: clamp(1.2rem, 1.1rem + 0.6vw, 1.5rem) !important;
+    color: #111b40 !important;
+    flex: 1;
+    font-family: 'Southwest Sans' !important;
+}
+.rewards__link {
+    color: #0036ff !important;
+    text-decoration: underline !important;
+    font-size: inherit !important;
+}
+.rewards__cta {
+    display: inline-block;
+    border: 1px solid #304cb2;
+    color: #304cb2 !important;
+    font-weight: 600 !important;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-family: 'Southwest Sans' !important;
+    font-size: 1rem !important;
+}
+.rewards__cta:hover {
+    background: #304cb2;
+    color: #fff !important;
+}
+.rewards__cta:focus-visible {
+    outline: 2px solid #304cb2;
+    outline-offset: 2px;
+}
+.rewards__features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.rewards__feature {
+    flex: 1 1 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+.rewards__text {
+    flex: 1;
+}
+.rewards__subtitle {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+}
+.rewards__icon {
+    width: 86px;
+    height: 86px;
+    flex-shrink: 0;
+}
+.rewards__footnote {
+    font-size: 0.6em !important;
+    color: #111b40 !important;
+    margin-top: 1.5rem !important;
+}
+@media (max-width: 768px) {
+    .rewards__header {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .rewards__features {
+        flex-direction: column;
+    }
+
+    .rewards__feature {
+        flex-direction: row;
+        align-items: flex-start;
+        flex: 0;
+    }
+}
+/*International travel requirements*/
+.intl-tips__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+    padding: 0 !important;
+    list-style: none !important;
+    align-items: stretch;
+}
+.intl-tips__item {
+    background: #e6e7e8;
+    padding: 30px;
+    flex: 1 1 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.intl-tips__item--blue {
+    background: #b1def1;
+}
+.intl-tips__icon {
+    flex-shrink: 0;
+}
+li.intl-tips__item p {
+    color: #111b40 !important;
+    font-family: 'Southwest Sans' !important;
+    font-size: 1.15em !important;
+    line-height: 1.7em !important;
+}
+.intl-tips__item a {
+    color: #0036ff !important;
+    text-decoration: underline !important;
+    font-family: 'Southwest Sans' !important;
+    font-size: inherit !important;
+}
+.intl-tips__item a:hover {
+    color: #304cb2!important;
+}
+
+.intl-tips__item a:focus-visible {
+    outline: 3px solid #0047ba;
+    outline-offset: 2px;
+}
+@media (max-width: 768px) {
+    .intl-tips__grid {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+/*Southwest Airlines destinations (Interlinking)*/
+.destinations {
+    background: #f4f4f4;
+}
+.fullwidth {
+    position: relative;
+    max-width: inherit;
+    width: 100vw;
+    margin: auto -50vw;
+    left: 50%;
+    right: 50%;
+}
+section.destinations.fullwidth .lg\:max-w-6xl {
+    margin: auto;
+    padding: 1.5rem .75rem;
+}
+section.destinations.fullwidth * {
+    font-family: 'Southwest Sans' !important;
+}
+.destinations__heading {
+    font-size: 1.75rem !important;
+}
+.destinations__subheading {
+    color: #111b40 !important;
+    font-size: 1.05em !important;
+}
+.destinations__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.75rem;
+}
+.destination-card {
+    display: flex !important;
+    flex-direction: column;
+}
+.destination-card__image {
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px !important;
+}
+.destination-card__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    font-size: 1em;
+}
+.destination-card__text {
+    color: #111b40 !important;
+    margin-bottom: 0.25rem !important;
+    font-size: 1.1em !important;
+}
+.destination-card__link {
+    color: #0036ff !important;
+    text-decoration: underline !important;
+    font-size: 1.1em !important;
+}
+.destination-card__link:focus-visible {
+    outline: 3px solid #0047ba;
+    outline-offset: 2px;
+}
+.destinations__footer,
+.destinations__footer a {
+    color: inherit !important;
+    margin-top: 2rem !important;
+    color: #304cb2 !important;
+    font-weight: 600 !important;
+    text-align: center;
+    text-decoration: underline !important;
+    font-size: 17px !important;
+}
+/*Download our app for flight info*/
+.app-download {
+    padding: 2rem 1rem;
+    background: linear-gradient(to right, #d3dce1, #ffffff);
+    text-align: center;
+}
+section.app-download.fullwidth .lg\:max-w-6xl {
+    margin: auto;
+    padding: 1.5rem .75rem;
+}
+.app-download__title {
+    margin-bottom: 1.5rem !important;
+    font-family: 'Southwest Sans' !important;
+}
+.app-download__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.app-download__image {
+    max-width: 100%;
+    height: auto;
+}
+.app-download__description {
+    max-width: 400px;
+    font-size: 1rem !important;
+    text-align: left;
+    margin-left: 3em !important;
+}
+.app-download__features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.feature {
+    flex: 1 1 200px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature__icon {
+    max-width: 100%;
+    height: auto;
+}
+.feature__title {
+    font-size: 1.1em !important;
+    margin: 0.85rem 0 0.25em!important;
+    color: #111B40 !important;
+}
+.feature p {
+    color: #111B40 !important;
+    font-size: 16px !important;
+}
+.app-download__footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.app-download__qr {
+    width: 140px;
+    height: auto;
+}
+.app-download__footer p {
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+    color: #111B40 !important;
+}
+.app-download__stores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.app-download__stores img {
+    margin: 0.5rem;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .app-download__top,
+    .app-download__footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .feature {
+        max-width: 100%;
+    }
+}
+/*Explore (Content)*/
+.city-info {
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 0 auto;
+}
+.city-info * {
+    font-family: 'Southwest Sans' !important;
+}
+.city-info__header {
+    background: #e6e7e8;
+    padding: 1rem;
+}
+.city-info__header h2 {
+    margin: 0 !important;
+    color: #304cb2 !important;
+    font-size: 1.6em !important;
+}
+.city-info__content p {
+    font-size: 1.05em !important;
+}
+.city-info__content {
+    padding: 1rem 1.25rem;
+}
+.city-info__more-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
+.city-info__more-wrapper.expanded {
+    max-height: 2000px;
+}
+.city-info__more {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.city-info__more-wrapper.expanded .city-info__more {
+    opacity: 1;
+}
+.city-info__toggle {
+    display: inline-block;
+    color: #304cb2 !important;
+    font-size: 1.05em !important;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+.city-info__toggle:focus-visible {
+    outline: 3px solid #0047ba;
+    outline-offset: 2px;
+}
+/*Questions we hear the most*/
+.faqs.section-seperator {
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 0 auto;
+}
+.section-headline {
+    background-color: #e6e7e8;
+    padding: 1rem;
+    font-size: 1.6em !important;
+    color: #304cb2 !important;
+    margin: 0 !important;
+}
+.collapsible-pair {
+    border-bottom: 1px solid #ddd;
+}
+.collapsible-container {
+    background: #fff;
+    border: none;
+    color: #111b40 !important;
+    width: 100%;
+    font-size: .95rem !important;
+    text-align: left;
+    padding: 2.5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+.collapsible-container:hover {
+    background-color: #f9f9f9;
+}
+.collapsible-icon {
+    font-size: 1.75rem;
+    color: #111b40;
+    transition: transform 0.3s ease;
+}
+.collapsible {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: all 0.4s ease;
+    color: #090f23;
+    font-size: .9em;
+}
+.collapsible.open {
+    overflow: visible;
+    padding: 7px 10px 15px;
+    border-top: 1px solid #eee;
+    margin-bottom: 10px;
+}
