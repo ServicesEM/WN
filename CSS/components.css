@@ -751,72 +751,76 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     border-top: 1px solid #eee;
     background: #fafafa;
 }
-/*Destination Content + Things to do*/
+/* Destination Content + Things to do */
 .readmore-wrapper {
-    display: flex;
-    gap: 1rem;
-    margin-block: 2rem;
-    flex-direction: row;
+  display: flex;
+  gap: 1rem;
+  margin-block: 2rem;
+  flex-direction: row;
 }
 .readmore-wrapper * {
-    font-family: 'Southwest Sans' !important;
+  font-family: 'Southwest Sans' !important;
 }
 .readmore-content {
-    flex: 2 1 75%;
+  flex: 2 1 66%;
 }
 .readmore-sidebar {
-    flex: 2 1 25%;
+  flex: 1 1 33%;
 }
 .readmore-content p {
-    color: #111b40 !important;
-    font-size: 1.05em !important;
-    margin-bottom: 0 !important;
+  color: #111b40 !important;
+  font-size: 1.05em !important;
+  margin-bottom: 0 !important;
 }
 .readmore-sidebar h3 {
-    color: #343a40 !important;
-    text-decoration: underline;
+  color: #343a40 !important;
+  text-decoration: underline;
 }
 .readmore-sidebar ul {
-    list-style: none !important;
-    padding: 0 !important;
+  list-style: none !important;
+  padding: 0 !important;
 }
 .readmore-sidebar ul * {
-    color: #090F23 !important;
-    font-size: 1rem !important;
+  color: #090F23 !important;
+  font-size: 1rem !important;
 }
 .readmore-sidebar li {
-    margin-bottom: 0rem!important;
+  margin-bottom: 0rem !important;
 }
 .readmore-btn {
-    margin: 1rem 0 !important;
-    padding: .75rem 1.5rem;
-    border: 1px solid #304cb2;
-    background: white;
-    color: #304cb2 !important;
-    font-size: 1rem !important;
-    border-radius: 4px;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+  margin: 1rem 0 !important;
+  padding: .75rem 1.5rem;
+  border: 1px solid #304cb2;
+  background: white;
+  color: #304cb2 !important;
+  font-size: 1rem !important;
+  border-radius: 4px;
+  transition:
+    color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 .readmore-btn:hover {
-    background-color: #2a4db3;
-    color: white !important;
+  background-color: #2a4db3;
+  color: white !important;
 }
 #content-more {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
 }
 #content-more-wrapper.expanded #content-more {
-    max-height: 500px;
+  max-height: 2000px;
 }
 @media (max-width: 768px) {
-    .readmore-wrapper {
-        flex-direction: column;
-    }
-    .readmore-content,
-    .readmore-sidebar {
-        flex: 1 1 100%;
-    }
+  .readmore-wrapper {
+    flex-direction: column;
+  }
+  .readmore-content,
+  .readmore-sidebar {
+    flex: 1 1 100%;
+  }
 }
