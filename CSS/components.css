@@ -699,6 +699,9 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     background: #fff;
     margin: 0 auto;
 }
+.faqs.section-seperator * {
+    font-family: 'Southwest Sans' !important;
+}
 .section-headline {
     background-color: #e6e7e8;
     padding: 1rem;
@@ -733,14 +736,13 @@ section.app-download.fullwidth .lg\:max-w-6xl {
 .collapsible {
     max-height: 0;
     overflow: hidden;
-    padding: 0 1rem;
     transition: all 0.4s ease;
     color: #090f23;
     font-size: .9em;
 }
 .collapsible.open {
     overflow: visible;
-    padding: 7px 10px 15px;
+    padding: 10px;
     border-top: 1px solid #eee;
-    margin-bottom: 10px;
+    background: #fafafa;
 }
