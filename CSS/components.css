@@ -183,7 +183,8 @@ a.travelplans-btn:hover {
     margin-right: 8px;
     vertical-align: -7px;
 }
-.boarding-text p.__pfs {
+.boarding-text p.__pfs,
+.boarding-text p {
     font-size: 16px!important;
     line-height: 27px!important;
     color: #333 !important;
@@ -382,6 +383,9 @@ section.boarding-tip.special_bg .white_btns p a:focus {
 }
 .rewards__text {
     flex: 1;
+}
+.rewards__text p {
+    font-size: 1em !important;
 }
 .rewards__subtitle {
     font-size: 1.25rem !important;
@@ -663,6 +667,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
 }
 .city-info__content p {
     font-size: 1.05em !important;
+    color: #111b40 !important;
 }
 .city-info__content {
     padding: 1rem 1.25rem;
