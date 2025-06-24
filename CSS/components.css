@@ -803,15 +803,14 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     background-color: #2a4db3;
     color: white !important;
 }
-.readmore-extra {
+#content-more {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
 }
-.readmore-content.expanded .readmore-extra {
-    max-height: 1000px;
+#content-more-wrapper.expanded #content-more {
+    max-height: 500px;
 }
-
 @media (max-width: 768px) {
     .readmore-wrapper {
         flex-direction: column;
