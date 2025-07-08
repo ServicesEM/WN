@@ -789,6 +789,12 @@ aside.readmore-sidebar > p {
     color: #090f23 !important;
     font-size: 1rem !important;
 }
+aside.readmore-sidebar > p.ttd_video a {
+    font-weight: bold!important;
+    color: rgb(48, 76, 178)!important;
+    text-decoration: underline!important;
+    font-size: 1.25rem!important;
+}
 .readmore-sidebar ul * {
   color: #090F23 !important;
   font-size: 1rem !important;
