@@ -783,9 +783,11 @@ section.app-download.fullwidth .lg\:max-w-6xl {
   color: #343a40 !important;
   text-decoration: underline;
 }
-.readmore-sidebar ul {
-  list-style: none !important;
-  padding: 0 !important;
+aside.readmore-sidebar > p {
+    margin-bottom: 0 !important;
+    font-weight: bold !important;
+    color: #090f23 !important;
+    font-size: 1rem !important;
 }
 .readmore-sidebar ul * {
   color: #090F23 !important;
