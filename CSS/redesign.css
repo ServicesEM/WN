@@ -23,6 +23,9 @@
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2:hover {
     box-shadow: none;
 }
+.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div a .relative {
+    margin-bottom: 10px;
+}
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2 > p.w-full.text-center {
     position: absolute;
     top: 0;
