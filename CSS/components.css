@@ -812,7 +812,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     overflow: hidden;
     transition: all 0.4s ease;
     color: #090f23;
-    font-size: 1.1em;
+    font-size: 14px;
 }
 .collapsible.open {
     overflow: visible;
