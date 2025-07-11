@@ -57,3 +57,19 @@
     margin: auto .5rem;
     font-family: 'Southwest Sans' !important;
 }
+.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div 
+.flex.flex-wrap.px-0.pb-5 > a.p-2:hover .relative::after {
+    opacity: 1;
+}
+.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2 .relative::after {
+    content: '';
+    background: linear-gradient(to bottom, rgba(48, 76, 178, 0) 50%, rgba(48, 76, 178, 0.6) 100%);
+    bottom: 0;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 99;
+    pointer-events: none;
+}
