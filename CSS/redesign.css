@@ -13,7 +13,7 @@
         max-width: 72rem;
     }
 }
-.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div a img.image.mb-4 {
+.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div a img.image {
     min-height: 200px;
 }
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2 {
@@ -30,6 +30,23 @@
     width: 95%;
     text-align: center;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    font-size: .95em;
+    margin: auto .5rem;
+    font-family: 'Southwest Sans' !important;
+}
+.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2 .relative > .flex {
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0) 100%);
+}
+.InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2 .relative > .flex p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    text-align: center;
     color: #fff;
     font-weight: 700;
     padding: 0.5rem;
