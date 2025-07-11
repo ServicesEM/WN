@@ -59,7 +59,7 @@
 }
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div 
 .flex.flex-wrap.px-0.pb-5 > a.p-2:hover .relative::after {
-    opacity: 1;
+    opacity: 1!important;
 }
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center > div .flex.flex-wrap.flex.flex-wrap.px-0.pb-5 > a.p-2 .relative::after {
     content: '';
