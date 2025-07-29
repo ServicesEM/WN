@@ -1,3 +1,9 @@
+.col-sm-4 p.ttd_video a {
+    font-weight: bold!important;
+    color: rgb(48, 76, 178)!important;
+    text-decoration: underline!important;
+    font-size: 1.25rem!important;
+}
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center {
     position: relative;
     max-width: inherit;
