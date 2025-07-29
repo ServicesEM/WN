@@ -4,6 +4,12 @@
     text-decoration: underline!important;
     font-size: 1.25rem!important;
 }
+.col-sm-8 section.travelplans-banner {
+    padding-bottom: .75rem;
+}
+.col-sm-8 section.travelplans-banner p.__pfs.travelplans-text {
+    font-size: 1rem !important;
+}
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center {
     position: relative;
     max-width: inherit;
