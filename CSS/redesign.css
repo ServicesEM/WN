@@ -10,6 +10,9 @@
 .col-sm-8 section.travelplans-banner p.__pfs.travelplans-text {
     font-size: 1rem !important;
 }
+.col-sm-8 section.travelplans-banner .travelplans-content {
+    max-width: 55%;
+}
 .InterlinkRoutes.w-full.max-w-full.lg\:max-w-6xl.self-center {
     position: relative;
     max-width: inherit;
