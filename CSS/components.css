@@ -5,42 +5,51 @@ p a.__pfs {font-size: inherit !important;}
     width: 100%;
     overflow: hidden;
 }
+
 .featured-image {
     width: 100%;
     display: block;
     object-fit: cover;
 }
+
 .featured-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    background: rgba(0,0,0,.6);
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .featured-content {
     padding: 20px 30px;
     width: 100%;
     max-width: 100%;
 }
+
 @media (max-width: 767px) {
     .featured-destination {
-        display: inline-block;
+        display: grid;
     }
-    .featured-image {
-        width: 100%;
-        height: auto;
+    .featured-image,
+    .featured-overlay {
+        grid-area: 1 / 1;
     }
     .featured-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: static;
+        height: auto;
+        background: rgba(0,0,0,.6);
+        display: flex;
+        align-items: center;
+    }
+    .featured-image {
         height: 100%;
-        background: rgba(0, 0, 0, 0.6);
     }
 }
+
 @media (min-width: 768px) {
     .featured-overlay {
         width: 40%;
@@ -50,6 +59,7 @@ p a.__pfs {font-size: inherit !important;}
         max-width: 100%;
     }
 }
+
 .featured-label {
     font-weight: bold !important;
     color: #cdcdcd !important;
@@ -57,26 +67,30 @@ p a.__pfs {font-size: inherit !important;}
     margin-bottom: .2rem !important;
     font-family: 'Southwest Sans' !important;
 }
+
 .featured-title {
     font-size: 1.75rem !important;
-    color: white !important;
+    color: #fff !important;
 }
+
 .featured-description {
     font-size: 1.05em !important;
-    color: white !important;
+    color: #fff !important;
     font-family: 'Southwest Sans' !important;
 }
+
 .featured-button {
-    background-color: white;
+    background-color: #fff;
     color: #304cb2 !important;
     font-weight: bold !important;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none !important;
-    transition: background-color 0.2s ease;
+    transition: background-color .2s ease;
     display: inline-block;
     font-family: 'Southwest Sans' !important;
 }
+
 .featured-button:hover {
     background-color: #e0e0e0;
 }
