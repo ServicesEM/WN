@@ -943,7 +943,7 @@ aside.readmore-sidebar > p.ttd_video a {
 }
 .airport__media {
     position:relative; 
-    min-height:260px; 
+    max-height:250px; 
 }
 .airport__media img {
     inset:0; 
