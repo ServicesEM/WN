@@ -5,13 +5,11 @@ p a.__pfs {font-size: inherit !important;}
     width: 100%;
     overflow: hidden;
 }
-
 .featured-image {
     width: 100%;
     display: block;
     object-fit: cover;
 }
-
 .featured-overlay {
     position: absolute;
     top: 0;
@@ -23,17 +21,13 @@ p a.__pfs {font-size: inherit !important;}
     align-items: center;
     justify-content: center;
 }
-
 .featured-content {
     padding: 20px 30px;
     width: 100%;
     max-width: 100%;
 }
-
 @media (max-width: 767px) {
-    .featured-destination {
-        display: grid;
-    }
+    .featured-destination {display: grid}
     .featured-image,
     .featured-overlay {
         grid-area: 1 / 1;
@@ -45,21 +39,15 @@ p a.__pfs {font-size: inherit !important;}
         display: flex;
         align-items: center;
     }
-    .featured-image {
-        height: 100%;
-    }
+    .featured-image {height: 100%}
 }
-
 @media (min-width: 768px) {
     .featured-overlay {
         width: 40%;
         height: 100%;
     }
-    .featured-content {
-        max-width: 100%;
-    }
+    .featured-content {max-width: 100%}
 }
-
 .featured-label {
     font-weight: bold !important;
     color: #cdcdcd !important;
@@ -67,18 +55,15 @@ p a.__pfs {font-size: inherit !important;}
     margin-bottom: .2rem !important;
     font-family: 'Southwest Sans' !important;
 }
-
 .featured-title {
     font-size: 1.75rem !important;
     color: #fff !important;
 }
-
 .featured-description {
     font-size: 1.05em !important;
     color: #fff !important;
     font-family: 'Southwest Sans' !important;
 }
-
 .featured-button {
     background-color: #fff;
     color: #304cb2 !important;
@@ -90,10 +75,7 @@ p a.__pfs {font-size: inherit !important;}
     display: inline-block;
     font-family: 'Southwest Sans' !important;
 }
-
-.featured-button:hover {
-    background-color: #e0e0e0;
-}
+.featured-button:hover {background-color: #e0e0e0}
 /*Looking for more low fare flights*/
 .visually-hidden {
     position: absolute !important;
@@ -146,18 +128,13 @@ p.lowfare-text {
     text-align: center;
     text-decoration: none !important;
 }
-.lowfare-btn:hover {
-    background: #e0ac00;
-}
+.lowfare-btn:hover {background: #e0ac00}
 .lowfare-btn:focus-visible {
     outline: 3px solid #1a1a1a;
     outline-offset: 2px;
 }
-
 @media (max-width: 768px) {
-    .lowfare-content {
-        max-width: 100%;
-    }
+    .lowfare-content {max-width: 100%}
     .lowfare-banner {
         padding: 1.5rem 1rem;
         background-position: right center;
@@ -168,12 +145,8 @@ p.lowfare-text {
         font-size: 1.75rem !important;
         color: #FFBF27 !important;
     }
-    p.__pfs.lowfare-text {
-    color: white !important;
-    }
-    a.lowfare-link {
-        color: white !important;
-    }
+    p.__pfs.lowfare-text {color: white !important}
+    a.lowfare-link {color: white !important}
     .lowfare-btn {
         margin: auto;
         text-align: center;
@@ -219,13 +192,9 @@ a.travelplans-btn:hover {
     background: #304cb2;
     color: #fff !important;
 }
-.travelplans-btn:focus-visible {
-    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5);
-}
+.travelplans-btn:focus-visible {box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)}
 @media (max-width: 768px) {
-    .travelplans-content {
-        max-width: 100%;
-    }
+    .travelplans-content {max-width: 100%}
     .travelplans-banner {
         padding: 1.5rem 1rem;
         background-position: 75% 50%!important;
@@ -237,9 +206,7 @@ a.travelplans-btn:hover {
         background: rgba(255, 255, 255, 0.6) 50%;
         pointer-events: none;
     }
-    .travelplans-title {
-        font-size: 1.75rem !important;
-    }
+    .travelplans-title {font-size: 1.75rem !important}
     .lowfare-btn {
         margin: auto;
         text-align: center;
@@ -306,12 +273,8 @@ a.travelplans-btn:hover {
     outline: 3px solid #0047ba;
     outline-offset: 2px;
 }
-section.boarding-tip.special_bg {
-    background: #cce1fa;
-}
-section.boarding-tip.special_bg h3.boarding-title::before {
-    display: none;
-}
+section.boarding-tip.special_bg {background: #cce1fa}
+section.boarding-tip.special_bg h3.boarding-title::before {display: none}
 section.boarding-tip.special_bg .white_btns p a {
     background: white;
     text-align: center;
@@ -354,9 +317,7 @@ section.boarding-tip.special_bg .white_btns p a:focus {
     list-style: none !important;
     align-items: stretch;
 }
-.trip__heading {
-    margin-bottom: 1.5rem !important;
-}
+.trip__heading {margin-bottom: 1.5rem !important}
 .trip__item {
     flex: 1 1 18rem;
     max-width: 22rem;
@@ -402,23 +363,15 @@ section.boarding-tip.special_bg .white_btns p a:focus {
     font-family: 'Southwest Sans' !important;
     font-size: 1rem !important;
 }
-.trip__link:hover {
-    color: #304cb2 !important;
-}
+.trip__link:hover {color: #304cb2 !important}
 .trip__link:focus-visible {
     outline: 3px solid #0047ba;
     outline-offset: 2px;
 }
 @media (max-width: 768px) {
-    .trip__grid {
-        padding: 0!important
-    }
-    .trip__item:not(:last-child) {
-        border-bottom: 1px solid #d9d9e0;
-    }
-    li.trip__item {
-        max-width: 95%!important;
-    }
+    .trip__grid {padding: 0!important}
+    .trip__item:not(:last-child) {border-bottom: 1px solid #d9d9e0}
+    li.trip__item {max-width: 95%!important}
 }
 /*Join Rapid Rewards*/
 .rewards__features * {
@@ -477,12 +430,8 @@ section.boarding-tip.special_bg .white_btns p a:focus {
     gap: 1rem;
     text-align: left;
 }
-.rewards__text {
-    flex: 1;
-}
-.rewards__text p {
-    font-size: 1em !important;
-}
+.rewards__text {flex: 1}
+.rewards__text p {font-size: 1em !important}
 .rewards__subtitle {
     font-size: 1.25rem !important;
     font-weight: 700 !important;
@@ -502,10 +451,7 @@ section.boarding-tip.special_bg .white_btns p a:focus {
         flex-direction: row;
         align-items: flex-start;
     }
-    .rewards__features {
-        flex-direction: column;
-    }
-
+    .rewards__features {flex-direction: column}
     .rewards__feature {
         flex-direction: row;
         align-items: flex-start;
@@ -531,12 +477,8 @@ section.boarding-tip.special_bg .white_btns p a:focus {
     align-items: flex-start;
     gap: 1rem;
 }
-.intl-tips__item--blue {
-    background: #b1def1;
-}
-.intl-tips__icon {
-    flex-shrink: 0;
-}
+.intl-tips__item--blue {background: #b1def1}
+.intl-tips__icon {flex-shrink: 0}
 li.intl-tips__item p {
     color: #111b40 !important;
     font-family: 'Southwest Sans' !important;
@@ -549,10 +491,7 @@ li.intl-tips__item p {
     font-family: 'Southwest Sans' !important;
     font-size: inherit !important;
 }
-.intl-tips__item a:hover {
-    color: #304cb2!important;
-}
-
+.intl-tips__item a:hover {color: #304cb2!important}
 .intl-tips__item a:focus-visible {
     outline: 3px solid #0047ba;
     outline-offset: 2px;
@@ -564,9 +503,7 @@ li.intl-tips__item p {
     }
 }
 /*Southwest Airlines destinations (Interlinking)*/
-.destinations {
-    background: #f4f4f4;
-}
+.destinations {background: #f4f4f4}
 .fullwidth {
     position: relative;
     max-width: inherit;
@@ -579,12 +516,8 @@ section.destinations.fullwidth .lg\:max-w-6xl {
     margin: auto;
     padding: 1.5rem .75rem;
 }
-section.destinations.fullwidth * {
-    font-family: 'Southwest Sans' !important;
-}
-.destinations__heading {
-    font-size: 1.75rem !important;
-}
+section.destinations.fullwidth * {font-family: 'Southwest Sans' !important;}
+.destinations__heading {font-size: 1.75rem !important;}
 .destinations__subheading {
     color: #111b40 !important;
     font-size: 1.05em !important;
@@ -745,9 +678,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
         flex-direction: column;
         text-align: center;
     }
-    .feature {
-        max-width: 100%;
-    }
+    .feature {max-width: 100%;}
 }
 /*Explore (Content)*/
 .city-info {
@@ -755,9 +686,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     background: #fff;
     margin: 0 auto;
 }
-.city-info * {
-    font-family: 'Southwest Sans' !important;
-}
+.city-info * {font-family: 'Southwest Sans' !important;}
 .city-info__header {
     background: #e6e7e8;
     padding: 1rem;
@@ -771,24 +700,18 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     font-size: 1.05em !important;
     color: #111b40 !important;
 }
-.city-info__content {
-    padding: 1rem 1.25rem;
-}
+.city-info__content {padding: 1rem 1.25rem;}
 .city-info__more-wrapper {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.6s ease;
 }
-.city-info__more-wrapper.expanded {
-    max-height: 2000px;
-}
+.city-info__more-wrapper.expanded {max-height: 2000px;}
 .city-info__more {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-.city-info__more-wrapper.expanded .city-info__more {
-    opacity: 1;
-}
+.city-info__more-wrapper.expanded .city-info__more {opacity: 1;}
 .city-info__toggle {
     display: inline-block;
     color: #304cb2 !important;
@@ -806,9 +729,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     background: #fff;
     margin: 0 auto;
 }
-.faqs.section-seperator * {
-    font-family: 'Southwest Sans' !important;
-}
+.faqs.section-seperator * {font-family: 'Southwest Sans' !important;}
 .section-headline {
     background-color: #e6e7e8;
     padding: 1rem;
@@ -816,9 +737,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     color: #304cb2 !important;
     margin: 0 !important;
 }
-.collapsible-pair {
-    border-bottom: 1px solid #ddd;
-}
+.collapsible-pair {border-bottom: 1px solid #ddd;}
 .collapsible-container {
     background: #fff;
     border: none;
@@ -832,9 +751,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
     align-items: center;
     transition: background 0.3s ease;
 }
-.collapsible-container:hover {
-    background-color: #f9f9f9;
-}
+.collapsible-container:hover {background-color: #f9f9f9;}
 .collapsible-icon {
     font-size: 1.75rem;
     color: #111b40;
