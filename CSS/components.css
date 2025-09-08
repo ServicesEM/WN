@@ -881,8 +881,14 @@ aside.readmore-sidebar > p.ttd_video a {
     align-items:flex-start
 }
 .info-label {
-    min-width:140px; 
-    color:var(--qf-muted)
+    min-width: 140px;
+    font-size: 16px;
+    color: black;
+}
+.info-row div,
+.stat-label {
+    color: black;
+    font-size: 16px;
 }
 .wifi {
     display: inline-flex;
@@ -908,8 +914,13 @@ aside.readmore-sidebar > p.ttd_video a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
-.stat-val {font-weight:800; font-size:28px}
+.stat-val {
+    font-weight: 800;
+    font-size: 26px;
+    color: black;
+}
 .notes {
     margin: 10px 2px 0 !important;
     color: #48506c !important;
