@@ -1,4 +1,12 @@
 p a.__pfs {font-size: inherit !important;}
+.readmore-content p.ttdp {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+.readmore-content ul li {
+    color: #090F23 !important;
+    font-size: 1rem !important;
+}
 /*Featured Destination - CP*/
 .featured-destination {
     position: relative;
