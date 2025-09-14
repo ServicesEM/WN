@@ -1009,12 +1009,11 @@ aside.readmore-sidebar > p.ttd_video a {
   color: #304cb2 !important;
   text-align: right;
 }
-.sw-kpi__number sup{
-  font-size: 14px !important;
-  font-weight: 600;
-  vertical-align: super;
-  line-height: 0;
-  margin-left: 2px;
+.sw-kpi__number sup,
+.sw-badge sup {
+    font-size: 30px !important;
+    font-weight: 500;
+    margin-left: 2px;
 }
 .sw-kpi__label{
   font-size: 16px !important;
@@ -1041,13 +1040,6 @@ aside.readmore-sidebar > p.ttd_video a {
   line-height: 1 !important;
   text-align: right;
   color: #304cb2 !important;
-}
-.sw-badge sup{
-  font-size: 14px !important;
-  font-weight: 600;
-  vertical-align: super;
-  line-height: 0;
-  margin-left: 2px;
 }
 .sw-list__text{
   font-size: 16px !important;
