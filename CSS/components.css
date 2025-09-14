@@ -860,7 +860,7 @@ aside.readmore-sidebar > p.ttd_video a {
     flex: 1 1 100%;
   }
 }
-/*Quick Facts - TC FC*/
+/*Quick Facts - ToCity/FromCity*/
 .airport * {font-family: 'Southwest Sans' !important}
 .airport {
     overflow:hidden;
@@ -946,4 +946,125 @@ aside.readmore-sidebar > p.ttd_video a {
     .airport__info{border-inline:none; border-top:1px solid #e6e8ee}
     .airport__stats{border-top:1px solid #e6e8ee;border-left: 0;}
     .stat{padding:12px}
+}
+/*Quick Facts - CityToCity*/
+:root{
+  --routeinfo-blue: #304cb2;
+  --routeinfo-blue-dark: #163f92;
+  --routeinfo-text: #0f172a;
+  --routeinfo-muted: #475569;
+  --routeinfo-border: #cccccc;
+  --routeinfo-bg: #ffffff;
+  --routeinfo-num-col: 72px;
+}
+.sw-container{
+  margin: 0 auto;
+  line-height: 1.45;
+}
+.sw-container * {font-family: 'Southwest Sans' !important;}
+.sw-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.sw-card{
+  background: var(--routeinfo-bg);
+  border: 1px solid var(--routeinfo-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.sw-card__header{
+  background: var(--routeinfo-blue);
+  padding: 14px 16px;
+}
+.sw-card__header h3{
+  margin: 0 !important;
+  color: #fff !important;
+}
+.sw-card__body{ padding: 25px 16px; }
+.sw-details{ margin: 0; }
+.sw-row{
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--routeinfo-border);
+}
+.sw-row:last-child{ border-bottom: 0; }
+.sw-row div:nth-child(1){ font-weight: 700; }
+.sw-row div:nth-child(2){ margin: 0; }
+.sw-kpi{
+  display: grid;
+  grid-template-columns: var(--routeinfo-num-col) 1fr;
+  align-items: baseline;
+  column-gap: 12px;
+  row-gap: 0;
+  margin-bottom: 16px;
+}
+.sw-kpi__number{
+  font-size: 36px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.5px !important;
+  line-height: 1 !important;
+  color: #304cb2 !important;
+  text-align: right;
+}
+.sw-kpi__number sup{
+  font-size: 14px !important;
+  font-weight: 600;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 2px;
+}
+.sw-kpi__label{
+  font-size: 16px !important;
+  color: var(--routeinfo-text) !important;
+  font-weight: 700 !important;
+}
+.sw-list{
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: grid;
+  gap: 14px;
+}
+.sw-list li{
+  display: grid;
+  grid-template-columns: var(--routeinfo-num-col) 1fr;
+  align-items: baseline;
+  column-gap: 12px;
+}
+.sw-badge{
+  display: block;
+  font-weight: 800 !important;
+  font-size: 36px !important;
+  line-height: 1 !important;
+  text-align: right;
+  color: #304cb2 !important;
+}
+.sw-badge sup{
+  font-size: 14px !important;
+  font-weight: 600;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 2px;
+}
+.sw-list__text{
+  font-size: 16px !important;
+  color: var(--routeinfo-text) !important;
+}
+.sw-footnote{
+  margin: 6px 4px 0 4px !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  color: #64748b !important;
+}
+@media (max-width: 900px){
+  .sw-grid{ grid-template-columns: 1fr; }
+  .sw-row{
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding: 10px 0;
+  }
+  :root{ --routeinfo-num-col: 56px; }
 }
