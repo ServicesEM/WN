@@ -958,7 +958,7 @@ aside.readmore-sidebar > p.ttd_video a {
   --routeinfo-num-col: 72px;
 }
 .sw-container{
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   line-height: 1.45;
 }
 .sw-container * {font-family: 'Southwest Sans' !important;}
@@ -982,6 +982,10 @@ aside.readmore-sidebar > p.ttd_video a {
   color: #fff !important;
 }
 .sw-card__body{ padding: 25px 16px; }
+.sw-card__body * {
+    font-size: 16px !important;
+    color: black !important;
+}
 .sw-details{ margin: 0; }
 .sw-row{
   display: grid;
@@ -1046,10 +1050,10 @@ aside.readmore-sidebar > p.ttd_video a {
   color: var(--routeinfo-text) !important;
 }
 .sw-footnote{
-  margin: 6px 4px 0 4px !important;
-  font-size: 11px !important;
-  line-height: 1 !important;
-  color: #64748b !important;
+    margin: 8px 4px 0 4px !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    color: #212a4d !important;
 }
 @media (max-width: 900px){
   .sw-grid{ grid-template-columns: 1fr; }
