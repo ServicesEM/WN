@@ -693,7 +693,7 @@ section.app-download.fullwidth .lg\:max-w-6xl {
 .city-info {
     border: 1px solid #ddd;
     background: #fff;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem;
 }
 .city-info * {font-family: 'Southwest Sans' !important;}
 .city-info__header {
