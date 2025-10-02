@@ -1006,7 +1006,7 @@ aside.readmore-sidebar > p.ttd_video a {
   margin-bottom: 16px;
 }
 .sw-kpi__number{
-  font-size: 30px !important;
+  font-size: 32px !important;
   font-weight: 800 !important;
   letter-spacing: -0.5px !important;
   line-height: 1 !important;
@@ -1040,7 +1040,7 @@ aside.readmore-sidebar > p.ttd_video a {
 .sw-badge{
   display: block;
   font-weight: 800 !important;
-  font-size: 36px !important;
+  font-size: 32px !important;
   line-height: 1 !important;
   text-align: right;
   color: #304cb2 !important;
